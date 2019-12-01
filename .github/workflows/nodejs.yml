@@ -26,8 +26,8 @@ jobs:
         git diff package*
       env:
         CI: true
-      - name: auto-merge
-        if: matrix.node-version == 10.x
-        uses: ridedott/dependabot-auto-merge-action@master
-        with:
-          GITHUB_TOKEN: ${{ secrets.GitOAUTHToken2 }}
+    - name: auto-merge
+      if: matrix.node-version == 10.x
+      uses: ridedott/dependabot-auto-merge-action@master
+      with:
+        GITHUB_TOKEN: ${{ secrets.GitOAUTHToken2 }}
