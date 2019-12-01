@@ -41,7 +41,7 @@
     "gulp": "^4.0.2",
     "gulp-append-prepend": "^1.0.8",
     "gulp-autoprefixer": "^7.0.1",
-    "gulp-bro": "^1.0.3",
+    "gulp-bro": "^2.0.0",
     "gulp-connect": "^5.7.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-rename": "^1.4.0",
