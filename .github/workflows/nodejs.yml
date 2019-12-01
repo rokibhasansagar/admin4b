@@ -23,6 +23,7 @@ jobs:
       env:
         CI: true
     - name: auto-merge
+      if: success()
       uses: ridedott/dependabot-auto-merge-action@master
       with:
         GITHUB_TOKEN: ${{ secrets.GitOAUTHToken2 }}
